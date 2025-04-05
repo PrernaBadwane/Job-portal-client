@@ -1,8 +1,11 @@
+import AuthHeading from '@/components/AuthComponents/AuthHeading'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <>
+    <AuthHeading heading="Login" />
+    </>
   )
 }
 

@@ -5,7 +5,7 @@ import React, { ReactNode } from "react";
 const CommonLayout = ({ children }: { children: ReactNode }) => {
   return (
     <Container>
-      <div className="flex justify-center items-center border-2 border-neutral-65 rounded-lg bg-white shadow-lg w-[90%] h-[90vh] mx-auto mt-10   gap-5">
+      <div className="flex justify-center items-center border-2 rounded-lg bg-white border-accent-30 shadow-lg w-[90%] h-[90vh] mx-auto mt-10   gap-5">
         <div className="w-[50%] h-full">
           <video
             className="w-full h-full object-cover rounded-l-lg"
